@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+*.bak
+
+# Self-play game logs. Regenerate them with `python main.py selfplay`.
+data/*.jsonl
+data/*.npz

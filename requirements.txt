@@ -1,0 +1,9 @@
+# Core game has no dependencies. These are only needed for:
+# - `python main.py export-npz` (packing training data into tensors)
+# - running the test suite
+numpy
+pytest
+
+# Run: .venv\Scripts\python.exe -m pip install -r requirements.txt
+# Add torch here once you start training a network (see connect4-ai's
+# requirements.txt for the CPU-only install command).
